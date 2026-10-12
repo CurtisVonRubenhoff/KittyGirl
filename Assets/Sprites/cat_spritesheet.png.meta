@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86e9b85565de2d14f836af2f31ebd944
+guid: 17d9ac2b08eb00945984982deb9a4064
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -50,9 +50,6 @@ TextureImporter:
   - first:
       213: 21300030
     second: cat_spritesheet_15
-  - first:
-      213: 21300032
-    second: lifehead
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -509,27 +506,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: lifehead
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 209
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04305410000000000800000000000000
-      internalID: 21300032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -557,7 +533,6 @@ TextureImporter:
       cat_spritesheet_7: 21300014
       cat_spritesheet_8: 21300016
       cat_spritesheet_9: 21300018
-      lifehead: 21300032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

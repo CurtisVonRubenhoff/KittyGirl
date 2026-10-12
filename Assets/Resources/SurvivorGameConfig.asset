@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4ab3b52d2c44b48f408fa997f51a31, type: 3}
+  m_Name: SurvivorGameConfig
+  m_EditorClassIdentifier:
+  seed: 1337
+  randomizeSeed: 1
+  initialDelay: 1.5
+  restDuration: 3
+  waveDuration: 28
+  baseBudget: 8
+  budgetPerWave: 3
+  budgetGrowth: 1.06
+  maxAlive: 24
+  spawnInterval: 0.65
+  healthGrowthPerWave: 0.13
+  damageGrowthPerWave: 0.07
+  speedGrowthPerWave: 0.025
+  minimumSpawnDistance: 16
+  maximumSpawnDistance: 25
+  fallbackSpawnDirection: {x: 0, y: 0, z: 1}
+  fallbackSpread: {x: 12, y: 5}
+  flyInDistance: 28
+  flyInSpeed: 22
+  minimumEnemyHeight: 1.8
+  eliteStartsAtWave: 4
+  eliteChance: 0.08
+  eliteHealthMultiplier: 3
+  eliteDamageMultiplier: 1.5
+  eliteExperienceMultiplier: 4
+  eliteTint: {r: 0.9, g: 0.2, b: 0.85, a: 1}
+  specialWeaponPickupLifetime: 20
+  specialWeaponPickupSpeed: 6
+  specialWeaponDuration: 30
+  startingExperienceToLevel: 5
+  experienceGrowthPerLevel: 4
+  choicesPerLevel: 3
+  healthPickupChance: 0.08
+  healthPickupAmount: 1
+  pickupLifetime: 25
+  pickupForwardSpeed: 6
+  basePickupMagnetRange: 3
+  pickupMagnetSpeed: 14
+  enemies:
+  - id: pixel-bug-green
+    prefab: {fileID: 1000011417571432, guid: 2b678a786dfbb844a96bf00f05cb8971, type: 3}
+    weight: 5
+    cost: 1
+    unlockWave: 1
+    healthMultiplier: 1
+    speedMultiplier: 1
+    damageMultiplier: 1
+    experience: 1
+  - id: pixel-bug-blue
+    prefab: {fileID: 1000011417571432, guid: f96f8abf827cbf147b1521fcf1c9a33a, type: 3}
+    weight: 3.5
+    cost: 2
+    unlockWave: 2
+    healthMultiplier: 1.3
+    speedMultiplier: 1.12
+    damageMultiplier: 1.1
+    experience: 2
+  - id: pixel-bug-red
+    prefab: {fileID: 1000011417571432, guid: 7d69a733adb6c8d4d8feb5ecf376279d, type: 3}
+    weight: 2.5
+    cost: 3
+    unlockWave: 4
+    healthMultiplier: 1.7
+    speedMultiplier: 1.18
+    damageMultiplier: 1.25
+    experience: 3
+  - id: pixel-bull-fast
+    prefab: {fileID: 1185459278649758, guid: 409ceabe6136a9746b52833cf5fdff5b, type: 3}
+    weight: 1.4
+    cost: 5
+    unlockWave: 6
+    healthMultiplier: 2.5
+    speedMultiplier: 0.9
+    damageMultiplier: 1.65
+    experience: 6
+  - id: pixel-bull-heavy
+    prefab: {fileID: 1185459278649758, guid: 48d6036faae898543b9bcbd6b51a190d, type: 3}
+    weight: 1
+    cost: 7
+    unlockWave: 9
+    healthMultiplier: 3.2
+    speedMultiplier: 1.1
+    damageMultiplier: 1.9
+    experience: 8
